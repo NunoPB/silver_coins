@@ -10,7 +10,7 @@ The objective of this code is to develop an Artificial Neural Network for analys
 
 •	The output of the data augmentation routine is in files <silver data augmentation output j 00.zip> to <silver data augmentation output j 10.zip>, in folder <data_augmentation_code>. The options with which the routine was ran are given in the file <j_options.txt> contained in that zip.
 
-•	A jupyter notebook for the ANN is in folder <ANN_code>. It uses Pandas, Numpy and Tensorflow 2.2 libraries, and it is given in file <silver 2025-04-17 j ANN>. It uses as input some of the files contained in <silver data augmentation output j.zip>, namely <j_data_iiiii.dat> and <j_synth_iiiii.dat>, where iiiii is a five digit integer, <j_in_data.csv> and <j_out_data.csv>.
+•	The ANN was developed and tested in Visual Studio Code. The code is in folder <ANN_code>. It uses Pandas, Numpy and Tensorflow 2.2 libraries, and it is given in file <silver 2025-04-17 j ANN>. It uses as input some of the files contained in <silver data augmentation output j.zip>, namely <j_data_iiiii.dat> and <j_synth_iiiii.dat>, where iiiii is a five digit integer, <j_in_data.csv> and <j_out_data.csv>.
 
 •	The output of the ANN, for the training set and the test set, are given in the files <train_j.xslx> and <test_j.xslx>, contained in file <silver 2025-04-17 j results.xslx>. Some data were not used in the training or testing at all, nevertheless the outputs of the ANN are calculated and are given in file <error_j.xslx>. Note that the training process uses random numbers, and each run of the code will produce slightly different results.
 
